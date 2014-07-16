@@ -1,0 +1,223 @@
+/*
+Theme Name: Omega Child
+Theme URI: localhost/
+Description: Child theme
+Author: Lyle Denman
+Author URI: http://lyledenman.com
+Template: omega
+Version: 1.0;
+*/
+
+/*
+LIME: #88B46A; 136,180,106
+JADE: #559D6E; 85,157,111
+ORANGE: F36E30; 242,108,47
+OFF-WHITE: #F6F5EC;
+*/
+
+@import "../omega/style.css";
+@font-face {
+    font-family: MenschBold;  
+    src: url("fonts/menschwebfont/mensch-bold-wf.woff") format('woff');  
+}
+@font-face {
+    font-family: MenschInline;  
+    src: url("fonts/menschwebfont/mensch-inline-wf.woff") format('woff');  
+}
+@font-face {
+    font-family: MenschThin;  
+    src: url("fonts/menschwebfont/mensch-thin-wf.woff") format('woff');  
+}
+@font-face {
+    font-family: Mensch;  
+    src: url("fonts/menschwebfont/mensch-wf.woff") format('woff');  
+}
+@font-face {
+    font-family: Aller;  
+    src: url("fonts/aller/Aller_Rg.ttf");  
+}
+@font-face {
+    font-family: AllerLight;  
+    src: url("fonts/aller/Aller_Lt.ttf");  
+}
+@font-face {
+    font-family: SourceSans;  
+    src: url("fonts/sourcesanspro/SourceSansPro-Regular.otf");  
+}
+@font-face {
+    font-family: SourceSansLight;  
+    src: url("fonts/sourcesanspro/SourceSansPro-Light.otf");  
+}
+@font-face {
+    font-family: SourceSansSemiBold;  
+    src: url("fonts/sourcesanspro/SourceSansPro-Semibold.otf");  
+}
+
+
+* {
+    font-family: Mensch;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: MenschInline;
+}
+
+p {
+    font-family: SourceSans;
+}
+
+a {
+    outline: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.site-title {
+    margin-bottom: 14px;
+}
+
+.site-inner {
+    background-color: #F6F5EC;
+}
+
+.site-description {
+    color: #88B46A;
+    font-size: 1em;
+}
+
+/* Header */
+
+#header {
+    background-color: #F6F5EC;
+    margin: 0;
+}
+
+#header > div {
+    padding: 10px 0;
+}
+
+#header span {
+    font-family: MenschBold;
+}
+
+.entry-title {
+    color: rgb(242,108,47);
+    color: rgba(242,108,47,1);
+}
+
+/* Navbar */
+
+.nav-primary {
+    background: #88B46A;
+}
+.nav-primary a {
+    font-family: Mensch;
+    color:#FFFFFF;
+}
+
+.current_page_item a {
+    font-family: MenschBold;
+    background-color: rgba(245,71,38,.45);
+    color: #fff;
+}
+
+/* Acuity Booking */
+
+.book-a-lesson {
+    text-align: center;
+}
+
+.book-a-lesson a > h2 {
+    font-size: 2em;
+    text-decoration: underline;
+        color: rgba(242,108,47,.8);
+}
+
+
+
+/*******HOME*******/
+
+
+/*******ABOUT*******/
+
+#bio {
+    margin: 40px;
+}
+
+#bio>.bio-quote {
+    font-family: SourceSansSemiBold;
+    background-color: #fff;
+    padding: 10px;
+    margin: -10px 50px 14px 50px;
+}
+
+#testimonial {
+    margin: 40px 50px;
+}
+
+#testimonial > h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+#testimonial .testimonial-text {
+    font-family: Mensch;
+    margin: 10px 80px;
+}
+
+#testimonial .testimonial-who {
+    font-family: MenschBold;
+    text-align: right;
+    /*font-weight: bold;*/
+    margin: 0 70px 0 0;
+}
+
+/*******LOCATION*******/
+
+.gm-style {
+    text-align: center;
+}
+
+.flxmap-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#directions {
+    font-family: Mensch;
+}
+
+#directions > p {
+    /*font-family: Mensch;*/
+    margin-bottom: 5px;
+}
+
+/*******FAQ*******/
+
+
+/*******BLOG*******/
+
+
+/* Footer */
+
+#footer {
+    background-color: #fff;
+}
+
+
+#footer > div > div > p,
+#footer > div > div > p > a {
+    font-family: SourceSans;
+    float: none;
+}
