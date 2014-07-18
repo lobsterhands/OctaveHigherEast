@@ -3,8 +3,7 @@
 <head>
 <?php wp_head();
  // Hook required for scripts, styles, and other <head> items. ?>
- <link rel="shortcut icon" href="favicon.ico" >
- <!-- <link rel="stylesheet" href="fonts/menschwebfont/stylesheet.css" type="text/css" charset="utf-8" /> -->
+ <link rel="shortcut icon" href="favicon_black.png" >
 </head>
 
 <body <?php body_class(); ?> <?php omega_attr( 'body' ); ?>>
